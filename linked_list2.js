@@ -1,3 +1,4 @@
+'use strict';
 
 // Create Node of LinkedList
 function Node(data) {

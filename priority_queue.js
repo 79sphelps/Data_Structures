@@ -1,3 +1,4 @@
+'use strict';
 
 class Node {
     constructor(element, priority) {
@@ -83,19 +84,9 @@ myPQ.enqueue("Sheru", 3);
 
 myPQ.printQueue();
 
-console.log('----------------')
 myPQ.dequeue();
-
-myPQ.printQueue();
-console.log('----------------')
 myPQ.dequeue();
-
-myPQ.printQueue();
-console.log('----------------')
 myPQ.dequeue();
-
-myPQ.printQueue();
-console.log('----------------')
 myPQ.dequeue();
 
 myPQ.printQueue();
