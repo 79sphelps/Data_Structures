@@ -1,3 +1,4 @@
+
 class Node {
     constructor(element) {
         this.element = element;

@@ -1,16 +1,11 @@
-// https://www.geeksforgeeks.org/implementation-binary-search-tree-javascript/
 
 /*
 insert
-
 remove
-
 findMin
-
 inorder
 preorder
 postorder
-
 */
 
 // Node class

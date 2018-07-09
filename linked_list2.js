@@ -1,3 +1,4 @@
+
 // Create Node of LinkedList
 function Node(data) {
     this.node = data;

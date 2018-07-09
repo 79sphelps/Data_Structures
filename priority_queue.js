@@ -1,3 +1,4 @@
+
 class Node {
     constructor(element, priority) {
         this.element = element;
