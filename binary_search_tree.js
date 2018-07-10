@@ -62,7 +62,6 @@ class BinarySearchTree
             if(node.left === null)
                 node.left = newNode;
             else
-    
                 // if left is not null recurr until 
                 // null is found
                 this.insertNode(node.left, newNode); 
@@ -76,7 +75,6 @@ class BinarySearchTree
             if(node.right === null)
                 node.right = newNode;
             else
-    
                 // if right is not null recurr until 
                 // null is found
                 this.insertNode(node.right,newNode);
@@ -146,7 +144,7 @@ class BinarySearchTree
             }
     
             // Deleting node with two children
-            // minumum node of the rigt subtree
+            // minumum node of the right subtree
             // is stored in aux
             var aux = this.findMinNode(node.right);
             node.data = aux.data;

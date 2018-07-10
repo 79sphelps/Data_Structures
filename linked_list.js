@@ -2,25 +2,41 @@
 
 /*
 bubbleSort
-selectionSort
-insertionSort
-quickSort
-mergeSort
-
-reverseList
+selectionSort 
+insertionSort / sortedInsert
+quickSort / quickSortRecur / getTail
+mergeSort / mergeSortRecur / merging
 
 insertInOrder
 insertAtEnd
 insertAt
 
+searchNonRecurs
+searchRecursWrapper / searchRecurs
+
 removeFrom
 removeElement
 
+segregateEvenOdd
+moveLastNodeToFront
+pairWiseSwap
+swapNodes
+removeDuplicatesFromSorted
+removeDuplicatesFromUnsorted
 reverseList
 indexOf
 isEmpty
+size_of_list
+getListLengthNonRecurs
+getListLengthRecursWrapper / getListLengthRecurs
 printList
+printMiddleElement
 removeDuplicates
+destroyList
+findNthFromLast
+detectLoopUsingSet
+detectLoopUsingPtrs
+countNodes / countNodesInLoop
 
 */
 
