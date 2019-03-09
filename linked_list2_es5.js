@@ -1,5 +1,13 @@
 'use strict';
 
+/*
+Functions:
+- insert
+- iterate
+- mergeSort
+
+*/
+
 // Create Node of LinkedList
 function Node(data) {
     this.node = data;
@@ -54,7 +62,7 @@ LinkedList.prototype.iterate = function() {
       // i.e-> null
       let str = '';
       while (list) {
-          //document.write(list.node) 
+          //document.write(list.node)
           //console.log(list.node);
           if (list.next) {
               //document.write(' -> ')
@@ -62,7 +70,7 @@ LinkedList.prototype.iterate = function() {
           } else {
               str += list.node;
           }
-          
+
           list = list.next
       }
       console.log(str);
@@ -118,7 +126,7 @@ LinkedList.prototype._mergeSort = function(left, right) {
       let pointerLeft = left;
       let pointerRight = right;
 
-       
+
       // If true then add left most node value in result,
       // increment left pointer else do the same in
       // right linked list.

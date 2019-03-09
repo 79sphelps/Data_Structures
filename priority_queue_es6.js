@@ -1,5 +1,15 @@
 'use strict';
 
+/*
+Functions:
+- enqueue
+- dequeue
+- front
+- isEmpty
+- printQueue
+
+*/
+
 class Node {
     constructor(element, priority) {
         this.element = element;

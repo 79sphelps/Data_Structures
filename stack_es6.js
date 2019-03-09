@@ -1,5 +1,15 @@
 'use strict';
 
+/*
+Functions:
+- push
+- pop
+- printItems
+- peek
+- isEmpty
+
+*/
+
 class Node {
     constructor(element) {
         this.element = element;
@@ -42,7 +52,7 @@ class Stack {
             console.log('Stack is empty.');
             return;
         }
-        
+
         let curr = this.head;
         let str = '';
         while (curr != null) {

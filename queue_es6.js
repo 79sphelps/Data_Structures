@@ -1,5 +1,15 @@
 'use strict';
 
+/*
+Functions:
+- enqueue
+- dequeue
+- front
+- isEmpty
+- printQueue
+
+*/
+
 class Node {
     constructor(element) {
         this.element = element;
@@ -31,7 +41,7 @@ class Queue {
         if (this.head === null) {
             console.log('queue is empty');
             return;
-        } 
+        }
         if (this.head.next !== null) {
             let tmp = this.head.next;
             this.head = null;
@@ -57,7 +67,7 @@ class Queue {
         if (this.head === null && this.tail === null) {
             console.log('Queue is empty.');
             return;
-        } 
+        }
         let curr = this.head;
         let str = '';
         while (curr !== null) {
@@ -65,7 +75,7 @@ class Queue {
             curr = curr.next;
         }
         console.log(str);
-          
+
     }
 }
 
